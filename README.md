@@ -45,7 +45,7 @@ Este proyecto implementa un Pipeline de Extracción de Entidades Técnicas resil
 ##  Estructura del Proyecto
 
 ```
-AI_Eng_Entrega_2/
+AI_Engineer-2/
 ├── schemas.py          # Definición de modelos Pydantic y validadores
 ├── chain.py            # Cadena LCEL, ChatPromptTemplate, .with_retry() y process_text()
 ├── main.py             # Mini-script ejecutable con casos de prueba
