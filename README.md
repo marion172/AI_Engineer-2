@@ -1,11 +1,11 @@
 # Pipeline de Procesamiento Validado
 ## AI Engineer - Extracción de Entidades Técnicas con LCEL y Pydantic
 
-Este proyecto implementa un Pipeline de Extracción de Entidades Técnicas resiliente y validado utilizando el stack moderno de LangChain (LCEL)** y Pydantic v2. 
+Este proyecto implementa un Pipeline de Extracción de Entidades Técnicas resiliente y validado utilizando el stack moderno de LangChain (LCEL) y Pydantic v2. 
 
 > [!NOTE]
 > **Configuración del Proveedor LLM:**
-> Para permitir la ejecución y evaluación del proyecto sin costo de tokens ni requerir una tarjeta de crédito, el cliente estándar `ChatOpenAI` se configuró apuntando al gateway compatible de OpenRouter (`https://openrouter.ai/api/v1`) utilizando el modelo gratuito **`nvidia/nemotron-3.5-lightning:free`.
+> Para permitir la ejecución y evaluación del proyecto sin costo de tokens ni requerir una tarjeta de crédito, el cliente estándar `ChatOpenAI` se configuró apuntando al gateway compatible de OpenRouter (`https://openrouter.ai/api/v1`) utilizando el modelo gratuito `nvidia/nemotron-3.5-lightning:free`. Genera una cuenta en openrouter obtienes tu key y lo agregas al proyecto
 >
 > - Utiliza la sintaxis de composición pura de LCEL y resiliencia con `.with_retry()`.
 > - Es intercambiable sin cambiar el código: si se desea usar la API directa de OpenAI (`gpt-4o-mini`), únicamente se actualizan las credenciales en el `.env`.
@@ -84,7 +84,7 @@ AI_Engineer-2/
 
 ### 1. Clonar o acceder a la carpeta del proyecto
 ```bash
-cd AI_Eng_Entrega_2
+cd AI_Engineer-2
 ```
 
 ### 2. Crear y activar un entorno virtual
